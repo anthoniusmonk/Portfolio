@@ -1,9 +1,78 @@
-body {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+/* --------- Container -------- */
+
 
 
 /* --------- Nav Bar --------- */
+.navbar {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-nav {
+  padding-right: 4em;
+}
+.navbar-brand {
+  padding-left: 2.7em;
+}
+.navbar-toggler {
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
 
+
+/* ---------- Hero ----------- */
+#title {
+  padding-top: 7em;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+}
+@media (min-width: 576px) {
+  #title {
+    padding-top: 7em;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 38px;
+  }
+}
+@media (min-width: 768px) {
+  #title {
+    padding-top: 6em;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 43px;
+  }
+}
+@media (min-width: 992px) {
+  #title {
+    padding-top: 5em;
+    padding-right: 5em;
+    padding-left: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  #title {
+    padding-top: 4em;
+    padding-right: 7em;
+    padding-left: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+  }
+}

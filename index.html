@@ -14,7 +14,11 @@
     <!-- GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="./style.css">
 
@@ -22,28 +26,28 @@
   </head>
   <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-1" href="#">Anthony <i class="fa-solid fa-bolt"></i> Gallardo</a>
+    <nav class="navbar navbar-expand-xl py-0 mt-4 position-absolute w-100" id="navbar">
+      <div class="d-xl-flex flex-grow-1" id="xlNavbar">
+        <a class="navbar-brand fs-1 text-white" href="#">Anthony <i class="fa-solid fa-bolt fa-lg"></i> Gallardo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-chevron-down fa-xl" style="color: white;"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto fs-3">
-            <li class="nav-item border-end border-dark pe-2">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item ps-2 pe-2">
-              <a class="nav-link active" href="#">LinkedIn</a>
+            <li class="nav-item border-end border-light pe-2">
+              <a class="nav-link active text-white" href="#">About</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link active" href="#">Youtube</a>
+              <a class="nav-link active text-white" href="#">LinkedIn</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link active" href="#">GitHub</a>
+              <a class="nav-link active text-white" href="#">Youtube</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link active text-white" href="#">GitHub</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link active dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact
               </a>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
@@ -54,6 +58,13 @@
         </div>
       </div>
     </nav>
+
+    <!--- Background -->
+    <div class="bg-image" 
+     style="background-image: url(Images/dippyaman-nath-WTjoXtFZ2fw-unsplash.jpg);
+            height: 100vh">
+      <h2 class="text-white" id="title">Anthony Gallardo is a musician and web designer creating and designing beautiful, impactful experiences.</h2>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
