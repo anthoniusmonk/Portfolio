@@ -34,23 +34,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto fs-3">
-            <li class="nav-item border-end border-light pe-2">
-              <a class="nav-link active text-white" href="#">About</a>
+            <li class="nav-item pe-2 border-end border-light">
+              <a class="nav-link active text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item ps-2">
+              <a class="nav-link active text-white" href="https://www.linkedin.com/in/anthony-gallardo-07a551192/">LinkedIn</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link active text-white" href="#">LinkedIn</a>
+              <a class="nav-link active text-white" href="https://www.youtube.com/@anthoniusmonk">Youtube</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link active text-white" href="#">Youtube</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a class="nav-link active text-white" href="#">GitHub</a>
+              <a class="nav-link active text-white" href="https://github.com/anthoniusmonk">GitHub</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link active dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact
               </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item fs-4" href="#">anthoniusmonk@gmail.com</a></li>
               </ul>
             </li>
@@ -59,13 +59,71 @@
       </div>
     </nav>
 
-    <!--- Background -->
+    <!--- Hero -->
     <div class="bg-image" 
      style="background-image: url(Images/dippyaman-nath-WTjoXtFZ2fw-unsplash.jpg);
             height: 100vh">
-      <h2 class="text-white" id="title">Anthony Gallardo is a musician and web designer creating and designing beautiful, impactful experiences.</h2>
+      <h2 class="text-white" id="title">Anthony Gallardo is a musician/aspiring web designer creating and designing beautiful, impactful experiences.</h2>
     </div>
 
+
+    <!-- Project album -->
+    <div class="album py-5 bg-light">
+      <div class="container-xxl">
+        <h1 class="title text-center pb-5"><u>Projects</u></h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="img-fluid landscape-aspectratio rounded" src="Images/apple-clone-screenshot.png">
+              <div class="card-body">
+                <p class="card-text text-center">Apple Clone</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="https://anthonygallardo-apple-clone.netlify.app/" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="img-fluid landscape-aspectratio rounded" src="Images/newsweek-clone-screenshot.jpg">
+              <div class="card-body">
+                <p class="card-text text-center">Newsweek Clone</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="https://anthoniusmonk-newsweek-clone.netlify.app" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="img-fluid landscape-aspectratio rounded" src="Images/airbnbnews-clone.png">
+              <div class="card-body">
+                <p class="card-text text-center">Airbnb News Clone</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="https://anthonygallardo-airbnb-news-clone.netlify.app" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class=" mt-5 mb-5">
+      <h1 class="name text-center pb-5"><u>About Me</u></h1>
+        <p class="text-center">I'm a student at Altcademy aspiring to be a full stack web developer.</p>
+        <p class="text-center">Proficient in HTML, CSS, Bootstap, and Git.</p>
+        <p class="text-center">A Hip-Hop artist, live performer, and producer.</p>
+        <p class="text-center pb-4">"Forever Learning"</p>
+        <img id="anthony-gallardo" src="Images/IMG_6228.jpg" class="img-fluid aspectratio rounded-circle mx-auto d-block" />
+    </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

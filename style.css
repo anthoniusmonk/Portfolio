@@ -9,10 +9,10 @@
   font-style: normal;
 }
 .navbar-nav {
-  padding-right: 4em;
+  padding-right: 5em;
 }
 .navbar-brand {
-  padding-left: 2.7em;
+  padding-left: 3em;
 }
 .navbar-toggler {
   color: white;
@@ -20,17 +20,19 @@
 ul {
   list-style-type: none;
 }
-
+.nav-link:hover {
+  text-decoration: underline;
+}
 
 /* ---------- Hero ----------- */
 #title {
-  padding-top: 7em;
+  padding-top: 6em;
   padding-right: 2em;
   padding-left: 2em;
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
-  font-size: 38px;
+  font-size: 28px;
 }
 @media (min-width: 576px) {
   #title {
@@ -38,7 +40,7 @@ ul {
     padding-right: 2em;
     padding-left: 2em;
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 38px;
   }
@@ -49,7 +51,7 @@ ul {
     padding-right: 2em;
     padding-left: 2em;
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 43px;
   }
@@ -60,7 +62,7 @@ ul {
     padding-right: 5em;
     padding-left: 2em;
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 50px;
   }
@@ -71,8 +73,33 @@ ul {
     padding-right: 7em;
     padding-left: 2em;
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 60px;
   }
+}
+
+/* --------- Project Albums --------- */
+u {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+@media (min-width: 1400px) {
+  u {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+  }
+}
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+.landscape-aspectratio {
+  aspect-ratio: 1.2;
 }
